@@ -1,0 +1,161 @@
+
+body {
+    background-color: white;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+}
+
+h1 {
+    color: pink;
+    font-size: 300%;
+  
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 200%;
+
+}
+
+h3 {
+    color: white;
+    font-size: 200%;
+}
+
+h4 {
+    color: pink;
+    font-size: 300%;
+    padding-top: 300px;
+}
+
+h5 {
+    color: white;
+    font-size: 200%;
+    padding-top: 50px;
+}
+
+nav {
+    border-bottom: solid palevioletred;
+    border-width: 1px;
+    padding: 15px;
+    background-color: pink;
+    display: flex;
+}
+
+.empty {
+    flex: 1;
+}
+
+nav img {
+    width: 10%;
+}
+
+nav a {
+    padding: 5px;
+    color: palevioletred;
+    text-decoration: none;
+    text-align: right;
+}
+
+nav a:hover {
+    color: white;
+}
+
+header {
+   display: flex;
+   align-items: center;
+   padding-left: 30px;
+}
+
+.left-column {
+    flex: 2;
+    padding-left: 200px;
+}
+
+.left-column img {
+    width:70%;
+    box-shadow: 10px 10px  pink;
+}
+
+.right-column {
+    flex: 1;
+    padding-right: 200px;
+}
+
+
+.right-column a {
+    display: block;
+    border: solid pink;
+    background-color: pink;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    max-width: 300px;
+    padding: 10px;
+}
+
+.right-column a:hover {
+    background-color: white;
+    color: pink;
+}
+
+.info {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+   text-align: center;
+   align-items: center;
+   padding-bottom: 200px;
+   gap: 200px;
+}
+
+.pros-cons {
+    border: solid pink;
+    border-width: 1px;
+    padding: 0px 150px 0px 150px;
+    background-color: pink;
+    flex: 1;  
+    box-shadow: 5px 5px palevioletred;  
+}
+
+.description {
+    flex: 2;
+    text-align: left;
+}
+
+.related-products {
+    text-align: center;
+    background-color: pink;
+    color: white;
+}
+
+.related-products img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.products {
+    display: flex;
+    gap: 30px;
+    
+}
+
+
+footer {
+    background-color: palevioletred;
+    padding: 30px;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: pink;
+    padding-right: 10px;
+}
+
+footer a:hover {
+    color: white;
+}
